@@ -1,0 +1,2 @@
+# rust-auto-exchange-cli
+ 
