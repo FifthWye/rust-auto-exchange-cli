@@ -56,3 +56,15 @@ The script uses several keys to control its behavior:
 1. `should_check_color`: This is a boolean flag that determines whether the script should check for a specific color in the area around the cursor. If this flag is set to `True`, the script will call the `is_color_green` function to check if any pixel in the specified area matches the acceptable colors. This can be useful if you want the script to perform certain actions only when a specific color is present on the screen.
 
 2. `should_lock_cursor`: This is another boolean flag that controls whether the cursor should be locked to a specific position. If this flag is set to `True`, the script will move the cursor back to its original position every 10 iterations. This can be useful if you want to prevent the cursor from drifting away from a specific area on the screen.
+
+## Running Tests
+
+This project uses Python's built-in `unittest` module for testing.
+
+To run the tests, follow these steps:
+
+1. Open a terminal.
+
+2. Navigate to the project directory.
+
+3. Run the tests with the `python -m unittest` command followed by the name of the test file without the `.py` extension. For example:
